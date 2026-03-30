@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <!-- это css ссылка в папку -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <p> Форма заказа товаров</p>
+    <!-- <div class="autism">
+
+        <h2>Это h2</h2>
+        <h3>Заголовки h3</h3>
+        <div class="txt"> Тут какой-то текст</div>
+    </div> -->
+    <div style="text-align: center;">
+        <div class="wrap">
+            <table class="form">
+                <tr>
+                    <td class="cap" colspan="2">Обратная связь</td>
+                </tr>
+                <tr>
+                    <td class="box" colspan="2"><input type="email" placeholder="Почта (обязательно)"></td>
+
+                    <td class="radio-zone">
+                        <div class="button-group">
+                            <input type="radio" name="d" id="d1"> <label for="d1">Доставка</label>
+                            <input type="radio" name="d" id="d2"> <label for="d2">Самовывоз</label>
+                            <input type="radio" name="d" id="d3"> <label for="d3">Ракетой по Киеву</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="box" colspan="2"><input type="phone" oninput="this.value = this.value.replace(/[^0-9+]/g, '')"
+                            placeholder="Телефон"></td>
+                        <td class="radio-zone">
+                        <div class="button-group"><select> <option value="cards">карты</option> <option value="money">деньги</option>
+                        <option value="smokey guns"> два ствола</option></select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="box" colspan="2"><input type="comment" placeholder="Комментарий"></td>
+                </tr>
+            </table>
+            <button>Отправить</button>
+        </div>
+    </div>
+</body>
+
+</html>
